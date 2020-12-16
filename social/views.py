@@ -9,7 +9,7 @@ from .forms import *
 
 def home_view(request):
     user = request.user
-    hello = 'Hello world'
+    hello = 'Hello'
 
     context = {
         'user': user,
